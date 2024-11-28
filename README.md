@@ -8,9 +8,6 @@ This is a simple Android application for calculating tips and total bill amounts
 - Calculate the tip and total bill with a button click.
 - Display the calculated tip and total bill amounts.
 
-## Screenshots
-Include a screenshot of the app here if applicable.
-
 ## Project Structure
 
 The project consists of the following files:
