@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+    android:padding="16dp" 
+    android:background="#FAFAFA"> 
+ 
+    <!-- Title --> 
+    <TextView 
+        android:id="@+id/titleTextView" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Tip Calculator" 
+        android:textSize="24sp" 
+        android:textStyle="bold" 
+        android:gravity="center" 
+        android:paddingBottom="16dp" 
+        android:textColor="#333333"/> 
+ 
+    <!-- Bill Amount Input --> 
+    <EditText 
+        android:id="@+id/billAmountInput" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:background="@android:drawable/editbox_background" 
+        android:hint="Enter Bill Amount" 
+        android:inputType="numberDecimal" 
+ android:minHeight="48dp" 
+        android:padding="10dp" 
+        android:textSize="16sp" /> 
+ 
+    <!-- Tip Percentage Input --> 
+    <EditText 
+        android:id="@+id/tipPercentageInput" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp" 
+        android:background="@android:drawable/editbox_background" 
+        android:hint="Enter Tip Percentage" 
+        android:inputType="numberDecimal" 
+        android:minHeight="48dp" 
+        android:padding="10dp" 
+        android:textSize="16sp" /> 
+ 
+    <!-- Calculate Button --> 
+    <Button 
+        android:id="@+id/calculateButton" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="16dp" 
+        android:background="#4CAF50" 
+        android:padding="12dp" 
+        android:text="Calculate" 
+        android:textColor="#263238" 
+        android:textSize="16sp" /> 
+ 
+    <!-- Tip Amount Output --> 
+    <TextView 
+        android:id="@+id/tipAmountOutput" 
+        android:layout_width="match_parent" 
+ android:layout_height="wrap_content" 
+        android:text="Tip Amount: ₹0.00" 
+        android:paddingTop="16dp" 
+        android:textSize="16sp" 
+        android:textColor="#333333"/> 
+ 
+    <!-- Total Bill Output --> 
+    <TextView 
+        android:id="@+id/totalBillOutput" 
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:text="Total Bill: ₹0.00" 
+        android:paddingTop="8dp" 
+        android:textSize="16sp" 
+        android:textColor="#333333"/> 
+</LinearLayout> 
